@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(12, 183, 235);
+    }
+
+.imgheader{
+    background-image: img\pattern.png;
+    
+}
+
+h3{
+    color: white;
+    margin-left: 11%;
+    margin-bottom: 0%;
+}
+.h1header{
+    color: white;
+    margin-left: 10%;
+    margin-top: 0%;
+    padding-bottom: 1%;
+}
+
+.editor{
+    color: rgb(12, 183, 235);
+}
+
+thead{
+    background-color: rgb(3, 164, 212);
+}
