@@ -1,27 +1,37 @@
+body{
+    margin: 0;
+}
+
 .header{
     background-image: url("img/pattern.png");
+    background-size: 45%;
     height: 150px;
     width: 100%;
     background-color: rgb(12, 183, 235);
     }
 
+main, footer{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 
 img.logo{
-   height: 80px;
-   padding: 50px;
+   height: 70px;
+   padding: 80px;
 }
 
 .editor{
     color: rgb(12, 183, 235);
 }
 
-li{
-    margin: 0;
+.descrizione{
+    font-size: 13px;
+    margin-top: 0%;
 }
 
 table{
     border-collapse: collapse;
-    width: 70%;
+    width: 80%;
 }
 thead, tbody{
     width: 10px;
@@ -29,6 +39,8 @@ thead, tbody{
 }
 .tr1{
     background-color: rgb(3, 164, 212);
+    color: white;
+    font-weight: bold;
 }
 
 .colonna1{
@@ -54,8 +66,7 @@ thead, tbody{
   background-repeat: no-repeat;
   background-color: red;
   font-size: 140%;
-  font-weight: normal;
-  line-height: 260px;
+  /* line-height: 260px; */
   text-align: center;
   width: 240px;
   height: 150px;
@@ -68,7 +79,6 @@ thead, tbody{
     background-repeat: no-repeat;
     background-color: red;
     font-size: 140%;
-    font-weight: normal;
     line-height: 260px;
     text-align: center;
     width: 240px;
